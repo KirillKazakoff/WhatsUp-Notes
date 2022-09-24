@@ -20,7 +20,7 @@ module.exports = {
         compress: true,
         historyApiFallback: true,
         https: false,
-        hot: true,
+        // hot: true,
     },
     devtool: 'source-map',
 
@@ -58,6 +58,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: './src/index.html',
             filename: './index.html',
+            cache: false,
         }),
 
         new MiniCssExtractPlugin({
