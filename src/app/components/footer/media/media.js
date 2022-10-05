@@ -11,11 +11,12 @@ import engine from '../../../lib/engine/engine';
 import recT from './recorder/recorder.tmp';
 
 export default class Media {
-    constructor(footer, loadHandler) {
+    constructor(footer, loadHandler, header) {
         this.upload = new Upload(loadHandler);
         this.handlers = {
             upload: this.uploadData(),
             recreateRec: this.recreateRec(),
+            header,
         };
 
         this.container = footer.querySelector('.media');

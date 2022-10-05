@@ -4,11 +4,9 @@ import Content from '../components/content/content';
 import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
 import ServerLoad from '../upload/serverLoad/serverLoad';
-import info from '../components/info/info';
 
 export default class Controller {
     constructor() {
-        // info.renderInfo('HELLoy', 'Gays');
         const uploadH = this.uploadRenderH();
 
         this.serverLoad = new ServerLoad(uploadH);
@@ -21,7 +19,7 @@ export default class Controller {
         const scrollBlockH = this.content.scroll.setBlock();
 
         this.header = new Header(uploadH, downloadOnFilterH, cancelFilterH, scrollBlockH);
-        this.footer = new Footer(uploadH);
+        this.footer = new Footer(uploadH, this.header);
 
         this.container = document.querySelector('.chat');
         this.container.addEventListener('submit', (e) => this.onSubmit(e));

@@ -55,8 +55,6 @@ export default class AudioRec {
                     audio: true,
                     video: false,
                     maxLength: 5,
-                    // audioEngine: 'libvorbis.js',
-                    // audioSampleRate: 32000,
                 },
             },
         };

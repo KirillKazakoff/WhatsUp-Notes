@@ -7,13 +7,13 @@ import setLinksInText from './footerUtils/linkInText';
 import Media from './media/media';
 
 export default class Footer {
-    constructor(loadHandler, mediaHandler) {
+    constructor(loadHandler, header) {
         this.loadHandler = loadHandler;
 
         this.container = document.querySelector('.chat-footer');
         this.button = this.container.querySelector('.footer-badge__record');
         this.input = this.container.querySelector('.record-input');
-        this.media = new Media(this.container, loadHandler, mediaHandler);
+        this.media = new Media(this.container, loadHandler, header);
 
         this.mesInput = this.container.querySelector('.input__message');
     }
