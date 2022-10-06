@@ -23,9 +23,7 @@ export default class MyRecorder {
     }
 
     async onRecord() {
-        console.log(this.handlers.header);
         if (this.handlers.header.isFilter) {
-            console.log('helloy');
             return;
         }
         this.display.recordBtn.removeEventListener('click', this.onRecord);
