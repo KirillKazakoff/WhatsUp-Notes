@@ -28,7 +28,10 @@
 .header-badge {
     width: 60px;
     height: 60px;
-    background-size: cover;
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .header-badge:nth-child(n + 2) {
@@ -36,8 +39,16 @@
 }
 
 .header-badge__search {
-    cursor: pointer;
     background-image: url('./img/search-badge.png');
+}
+
+.header-badge__pin {
+    background-image: url('./img/pin-badge.png');
+}
+
+.header-badge__help {
+    background-image: url('./img/help-badge.png');
+    height: 50px;
 }
 
 .input__search {
@@ -59,13 +70,4 @@
     color: red;
     font-family: 'DeadBitch';
     word-spacing: 20px;
-}
-
-.header-badge__pin {
-    cursor: pointer;
-    background-image: url('./img/pin-badge.png');
-}
-
-.header-badge__context-menu {
-    background-image: url('./img/context-menu-badge.png');
 }
