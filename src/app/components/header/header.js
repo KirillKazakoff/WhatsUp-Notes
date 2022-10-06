@@ -35,7 +35,10 @@ export default class Header {
         this.isFilter = !this.isFilter;
         this.searchInput.classList.toggle('hidden');
 
-        if (!this.isFilter) this.cancelFilterH();
+        if (!this.isFilter) {
+            this.cancelFilterH();
+            this.searchInput.value = '';
+        }
     }
 
     onInput() {
