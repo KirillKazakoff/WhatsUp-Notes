@@ -8,3 +8,5 @@ window.onload = async () => {
     registrateSW();
     const controller = new Controller();
 };
+
+console.log('check git');
