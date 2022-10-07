@@ -118,7 +118,7 @@ PS: A lot of features huh :) but in fact it's still a useless piece of s$$$. Any
 ---
 
 ## Architecture 
-1. ### Frontend (actually it sucks)
+1. ### Frontend
     Project is distinguished on several parts:
     - **Components:** parts of the bot (header, content, footer)
     - **Controller:** module that binds all components together
@@ -130,13 +130,13 @@ PS: A lot of features huh :) but in fact it's still a useless piece of s$$$. Any
 
        </br>
 
-1. ### Backend (sucks even more)
+2. ### Backend
     Project is distinguished on several parts:
     - **Db:** database module logic, contains lazyLoad logic, etc
     - **InitFiles:** test file load (static)
     - **Public:** here are being stored files sent by the user (static)
     - **Routes:** interaction with client requests
-    - **ServerApp:** app entry point, here starts serve
+    - **ServerApp:** app entry point
 
         The key idea there is to use koa-multer and koa-body middlewares on different routes. When it gets fileData then it uses koa-body and when it gets file itself then it uses koa-multer to put file in public directory
 
@@ -180,7 +180,7 @@ Then:
     yarn start
     ``` 
 
-- In frontend project you just should use 'start' script. (but before you need to build project with webpack with 'build' command). 
+- In frontend project you just should use 'build' to build webpack and after that use 'start' script.
 
   ```sh
   yarn build
