@@ -105,6 +105,12 @@ to store, send and record some user data.
 
     </br>
 
+5. ### Content filtration
+    - **How does it work** </br> Type in search input a needed filter. After that, your messages will be filtered by the inserted filter. There are few filter types that you can use: pic(pictures, images), video, audio, doc(text, documents): ![FilterGif]
+
+    User can't create new messages during filter is active. 
+    - **Realization** </br> When user input data in filter field then client sends a request with current filter state to the server. There messages are filtered and sent back to user. 
+
 ---
 
 PS: A lot of features huh :) but in fact it's still a useless piece of s$$$. Anyway, who cares? Just let's move on.
@@ -196,7 +202,7 @@ Then:
 [CancelGif]: ./assets/Cancel.gif
 [SuccessGif]: ./assets/Success.gif
 [ServiceWorkerGif]: ./assets/Service-Worker.gif
-
+[FilterGif]: ./assets/Filter.gif
 
    <!-- Table  -->
    [PlKoa]: <https://github.com/koajs/koa/blob/master/Readme.md>

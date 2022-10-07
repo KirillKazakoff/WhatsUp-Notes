@@ -12,6 +12,7 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    color: var(--red);
 }
 
 .input__message::placeholder {
