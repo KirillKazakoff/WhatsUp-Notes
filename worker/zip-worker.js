@@ -1,0 +1,1 @@
+importScripts("./jszip.js"),self.addEventListener("message",(e=>{const{fileData:s,file:i}=e.data,{name:t}=s,a=new JSZip;a.file(t,i),a.generateAsync({type:"blob",compression:"DEFLATE",compressionOptions:{level:9}}).then((e=>{self.postMessage({file:e,fileData:s})}))}));
