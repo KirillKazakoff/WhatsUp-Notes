@@ -1,10 +1,10 @@
 # WhatsUp Notes
-
-<span style="font-size: 20px">Link on the app: [**GitHubPages**][GitHubPages]</span>
+ 
+> ## Link on the app: [**GitHubPages**][GitHubPages]
 
 </br>
 
-<font size='5'>Сontents</font>
+<h2>Сontents</h2>
 
 - [WhatsUp Notes](#whatsup-notes)
   - [Features](#features)
