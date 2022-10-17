@@ -1,10 +1,12 @@
-# What'sUp Bot
+# WhatsUp Notes
 
-**Link on [GitHubPages][gitPages]**
+<span style="font-size: 20px">Link on the app: [**GitHubPages**][GitHubPages]</span>
 
-## Final JS-Course Work
-- [What'sUp Bot](#whatsup-bot)
-  - [Final JS-Course Work](#final-js-course-work)
+</br>
+
+<span style="font-size: 20px">Сontents</span>
+
+- [WhatsUp Notes](#whatsup-notes)
   - [Features](#features)
     - [**Key Features**](#key-features)
     - [**Aux Features**](#aux-features)
@@ -15,7 +17,7 @@
   
 [![Build status](https://ci.appveyor.com/api/projects/status/i6u0692t36derfbt?svg=true)](https://ci.appveyor.com/project/KirillKazakoff/diplomafront)
 
-What'sUp Bot is the application which purpose is
+WhatsUp Notes is the application which purpose is
 to store, send and record some user data.
 
 ## Features
@@ -193,7 +195,7 @@ Then:
 
 <!-- Links in text -->
 [this]: <https://github.com/KirillKazakoff/diplomaBack>
-[gitPages]: <https://kirillkazakoff.github.io/WhatsUpBot/>
+[GitHubPages]: <https://kirillkazakoff.github.io/WhatsUp-Notes/>
 
 [SendFilesGif]: ./assets/SendFiles.gif
 [UserInputGif]: ./assets/UserInput.gif
@@ -204,14 +206,14 @@ Then:
 [ServiceWorkerGif]: ./assets/Service-Worker.gif
 [FilterGif]: ./assets/Filter.gif
 
-   <!-- Table  -->
-   [PlKoa]: <https://github.com/koajs/koa/blob/master/Readme.md>
-   [PlKoaM]: <https://github.com/koajs/multer/blob/master/README.md>
-   [PlKoaB]: <https://github.com/koajs/koa-body#readme>
-   [PlKoaS]: <https://github.com/koajs/static#readme>
-   [PlKoaR]: <https://github.com/koajs/router#readme>
-   [PlKoaCR]: <https://github.com/saadq/koa-combine-routers/blob/master/README.md>
-   [PlWebpack]: <https://github.com/webpack/webpack/blob/main/README.md>
-   [PlVideo]: <https://github.com/videojs>
-   [PlVideoR]: <https://github.com/collab-project/videojs-record>
-   [PlJsZip]: <https://github.com/Stuk/jszip/blob/master/README.markdown>
+ <!-- Table  -->
+ [PlKoa]: <https://github.com/koajs/koa/blob/master/Readme.md>
+ [PlKoaM]: <https://github.com/koajs/multer/blob/master/README.md>
+ [PlKoaB]: <https://github.com/koajs/koa-body#readme>
+ [PlKoaS]: <https://github.com/koajs/static#readme>
+ [PlKoaR]: <https://github.com/koajs/router#readme>
+ [PlKoaCR]: <https://github.com/saadq/koa-combine-routers/blob/master/README.md>
+ [PlWebpack]: <https://github.com/webpack/webpack/blob/main/README.md>
+ [PlVideo]: <https://github.com/videojs>
+ [PlVideoR]: <https://github.com/collab-project/videojs-record>
+ [PlJsZip]: <https://github.com/Stuk/jszip/blob/master/README.markdown>
