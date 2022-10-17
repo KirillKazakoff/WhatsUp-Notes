@@ -4,7 +4,7 @@
 
 </br>
 
-<span style="font-size: 20px">Сontents</span>
+<font size='5'>Сontents</font>
 
 - [WhatsUp Notes](#whatsup-notes)
   - [Features](#features)
